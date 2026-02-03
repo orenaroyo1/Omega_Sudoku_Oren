@@ -51,6 +51,7 @@ namespace Suduku_project
         }
 
         // to do:ToFlattenedString
+        //
 
         public string ToFlattenedString()
         {
@@ -63,6 +64,47 @@ namespace Suduku_project
                 }
             }
             return sudukuInstring;
+        }
+        //
+        public void PrintBoard()
+        {
+            Console.WriteLine("-------------------------");
+            for (int i = 0; i < row; i++)
+            {
+                if (i % 3 == 0 && i != 0)
+                {
+                    Console.WriteLine("|-------+-------+-------|");
+                }
+
+                for (int j = 0; j < column; j++)
+                {
+                    if (j % 3 == 0)
+                    {
+                        Console.Write("| ");
+                    }
+
+                    if (Grid[i, j] == 0)
+                        Console.Write(". ");
+                    else
+                        Console.Write(Grid[i, j] + " ");
+                }
+                Console.WriteLine("|"); 
+            }
+            Console.WriteLine("-------------------------");
+        }
+        //
+        public void ClearBoard()
+        {
+            for (int i = 0; i < row; i++)
+            {
+                for (int j = 0; j < column; j++)
+                {
+                    if (!IsInitial[i, j])
+                    {
+                        Grid[i, j] = 0;
+                    }
+                }
+            }
         }
     }
 }
