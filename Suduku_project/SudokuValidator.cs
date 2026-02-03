@@ -10,14 +10,14 @@ namespace Suduku_project
     {
         private const int BoardSize = 81;//
         //
-        public static bool IsValidFormat(string sudokuString)
+        public static bool IsValidFormat(string SudokuString)
         {
-            if (string.IsNullOrEmpty(sudokuString) || sudokuString.Length != BoardSize)
+            if (string.IsNullOrEmpty(SudokuString) || SudokuString.Length != BoardSize)
             {
                 return false;
             }
 
-            foreach (char c in sudokuString)
+            foreach (char c in SudokuString)
             {
                 if (c < '0' || c > '9')
                 {
@@ -28,7 +28,7 @@ namespace Suduku_project
             return true;
         }
         //
-        public static bool IsBoardLegal(string sudokuString)
+        public static bool IsBoardLegal(string SudokuString)
         {
             int[] rows = new int[9];
             int[] cols = new int[9];
@@ -39,7 +39,7 @@ namespace Suduku_project
                 for (int j = 0; j < 9; j++)
                 {
                     int charIndex = i * 9 + j;
-                    int val = sudokuString[charIndex] - '0';
+                    int val = SudokuString[charIndex] - '0';
 
                     if (val > 0)
                     {
@@ -51,7 +51,6 @@ namespace Suduku_project
                             return false; 
                         }
 
-                        rows[i] |= mask;
                         rows[i] |= mask;
                         cols[j] |= mask;
                         boxes[boxIndex] |= mask;
