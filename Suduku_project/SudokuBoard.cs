@@ -55,9 +55,9 @@ namespace Suduku_project
         public string ToFlattenedString()
         {
             string sudukuInstring = "";
-            for (int i = 0; i < 9; i++)
+            for (int i = 0; i < row; i++)
             {
-                for (int j = 0; j < 9; j++)
+                for (int j = 0; j < column; j++)
                 {
                     sudukuInstring += Grid[i, j];
                 }
