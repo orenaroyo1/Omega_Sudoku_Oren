@@ -1,0 +1,8 @@
+C:\Users\orena\OneDrive\Desktop\OMEGA\Omega_Sudoku_Oren\Suduku_project\bin\Debug\Suduku_project.exe.config
+C:\Users\orena\OneDrive\Desktop\OMEGA\Omega_Sudoku_Oren\Suduku_project\bin\Debug\Suduku_project.exe
+C:\Users\orena\OneDrive\Desktop\OMEGA\Omega_Sudoku_Oren\Suduku_project\bin\Debug\Suduku_project.pdb
+C:\Users\orena\OneDrive\Desktop\OMEGA\Omega_Sudoku_Oren\Suduku_project\obj\Debug\Suduku_project.csproj.AssemblyReference.cache
+C:\Users\orena\OneDrive\Desktop\OMEGA\Omega_Sudoku_Oren\Suduku_project\obj\Debug\Suduku_project.csproj.CoreCompileInputs.cache
+C:\Users\orena\OneDrive\Desktop\OMEGA\Omega_Sudoku_Oren\Suduku_project\obj\Debug\Suduku_project.exe
+C:\Users\orena\OneDrive\Desktop\OMEGA\Omega_Sudoku_Oren\Suduku_project\obj\Debug\Suduku_project.pdb
+C:\Users\orena\OneDrive\Desktop\OMEGA\Omega_Sudoku_Oren\Suduku_project\obj\Debug\Suduku_project.exe.config
