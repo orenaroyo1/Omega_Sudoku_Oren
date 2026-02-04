@@ -5,6 +5,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{8FFA3352-F17A-402A-9D73-68D932E1EBEF}|Suduku_project.csproj|c:\\users\\orena\\onedrive\\desktop\\omega\\omega_sudoku_oren\\suduku_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FFA3352-F17A-402A-9D73-68D932E1EBEF}|Suduku_project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFA3352-F17A-402A-9D73-68D932E1EBEF}|Suduku_project.csproj|C:\\Users\\orena\\OneDrive\\Desktop\\OMEGA\\Omega_Sudoku_Oren\\Suduku_project\\sudokuvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FFA3352-F17A-402A-9D73-68D932E1EBEF}|Suduku_project.csproj|solutionrelative:sudokuvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFA3352-F17A-402A-9D73-68D932E1EBEF}|Suduku_project.csproj|C:\\Users\\orena\\OneDrive\\Desktop\\OMEGA\\Omega_Sudoku_Oren\\Suduku_project\\sudokuboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FFA3352-F17A-402A-9D73-68D932E1EBEF}|Suduku_project.csproj|solutionrelative:sudokuboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFA3352-F17A-402A-9D73-68D932E1EBEF}|Suduku_project.csproj|C:\\Users\\orena\\OneDrive\\Desktop\\OMEGA\\Omega_Sudoku_Oren\\Suduku_project\\sudoku.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FFA3352-F17A-402A-9D73-68D932E1EBEF}|Suduku_project.csproj|solutionrelative:sudoku.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFA3352-F17A-402A-9D73-68D932E1EBEF}|Suduku_project.csproj|C:\\Users\\orena\\OneDrive\\Desktop\\OMEGA\\Omega_Sudoku_Oren\\Suduku_project\\isudokusolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FFA3352-F17A-402A-9D73-68D932E1EBEF}|Suduku_project.csproj|solutionrelative:isudokusolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFA3352-F17A-402A-9D73-68D932E1EBEF}|Suduku_project.csproj|C:\\Users\\orena\\OneDrive\\Desktop\\OMEGA\\Omega_Sudoku_Oren\\Suduku_project\\backtrackingsolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FFA3352-F17A-402A-9D73-68D932E1EBEF}|Suduku_project.csproj|solutionrelative:backtrackingsolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,9 +44,74 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\orena\\OneDrive\\Desktop\\OMEGA\\Omega_Sudoku_Oren\\Suduku_project\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-03T19:07:45.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sudoku.cs",
+              "DocumentMoniker": "C:\\Users\\orena\\OneDrive\\Desktop\\OMEGA\\Omega_Sudoku_Oren\\Suduku_project\\Sudoku.cs",
+              "RelativeDocumentMoniker": "Sudoku.cs",
+              "ToolTip": "C:\\Users\\orena\\OneDrive\\Desktop\\OMEGA\\Omega_Sudoku_Oren\\Suduku_project\\Sudoku.cs",
+              "RelativeToolTip": "Sudoku.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T23:58:09.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BacktrackingSolver.cs",
+              "DocumentMoniker": "C:\\Users\\orena\\OneDrive\\Desktop\\OMEGA\\Omega_Sudoku_Oren\\Suduku_project\\BacktrackingSolver.cs",
+              "RelativeDocumentMoniker": "BacktrackingSolver.cs",
+              "ToolTip": "C:\\Users\\orena\\OneDrive\\Desktop\\OMEGA\\Omega_Sudoku_Oren\\Suduku_project\\BacktrackingSolver.cs",
+              "RelativeToolTip": "BacktrackingSolver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T23:30:06.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ISudokuSolver.cs",
+              "DocumentMoniker": "C:\\Users\\orena\\OneDrive\\Desktop\\OMEGA\\Omega_Sudoku_Oren\\Suduku_project\\ISudokuSolver.cs",
+              "RelativeDocumentMoniker": "ISudokuSolver.cs",
+              "ToolTip": "C:\\Users\\orena\\OneDrive\\Desktop\\OMEGA\\Omega_Sudoku_Oren\\Suduku_project\\ISudokuSolver.cs",
+              "RelativeToolTip": "ISudokuSolver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T22:13:57.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SudokuValidator.cs",
+              "DocumentMoniker": "C:\\Users\\orena\\OneDrive\\Desktop\\OMEGA\\Omega_Sudoku_Oren\\Suduku_project\\SudokuValidator.cs",
+              "RelativeDocumentMoniker": "SudokuValidator.cs",
+              "ToolTip": "C:\\Users\\orena\\OneDrive\\Desktop\\OMEGA\\Omega_Sudoku_Oren\\Suduku_project\\SudokuValidator.cs",
+              "RelativeToolTip": "SudokuValidator.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T19:33:51.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SudokuBoard.cs",
+              "DocumentMoniker": "C:\\Users\\orena\\OneDrive\\Desktop\\OMEGA\\Omega_Sudoku_Oren\\Suduku_project\\SudokuBoard.cs",
+              "RelativeDocumentMoniker": "SudokuBoard.cs",
+              "ToolTip": "C:\\Users\\orena\\OneDrive\\Desktop\\OMEGA\\Omega_Sudoku_Oren\\Suduku_project\\SudokuBoard.cs",
+              "RelativeToolTip": "SudokuBoard.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAmwGAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T19:08:06.042Z",
               "EditorCaption": ""
             }
           ]

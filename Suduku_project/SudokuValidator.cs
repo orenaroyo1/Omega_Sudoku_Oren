@@ -8,8 +8,8 @@ namespace Suduku_project
 {
     internal static class SudokuValidator
     {
-        private const int BoardSize = 81;//
-        //
+        private const int BoardSize = 81;//Sudoku board size
+        //Checks if the input is correct and legal, the size is correct and there are only numbers between 0-9
         public static bool IsValidFormat(string SudokuString)
         {
             if (string.IsNullOrEmpty(SudokuString) || SudokuString.Length != BoardSize)
@@ -27,7 +27,7 @@ namespace Suduku_project
 
             return true;
         }
-        //
+        //Checks whether the Sudoku board it received is legal in terms of duplicate numbers
         public static bool IsBoardLegal(string SudokuString)
         {
             int[] rows = new int[9];
