@@ -8,11 +8,13 @@ namespace Suduku_project
 {
     internal class SudokuBoard
     {
-        private static int column = 9, row = 9;//
+        private static int column = 9, row = 9;//Static final variables for Sudoku size
         private static char empty = '0';
-        private int[,] Grid;// 
-        private bool[,] IsInitial;//
+        private int[,] Grid;// A matrix that will hold the Sudoku
+        private bool[,] IsInitial;//A matrix that preserves the original values
                                   //for me [r,c]
+
+        //Constructor operation that converts Sudoku from a string to a matrix
         public SudokuBoard(string SudukuString)
         {
             Grid = new int[row, column];
@@ -34,12 +36,12 @@ namespace Suduku_project
                 }
             }
         }
-
+        //One cell value
         public int GetCell(int row, int col)
         {
             return Grid[row, col];
         }
-
+        //Definition of one cell
         public void SetCell(int row, int col, int value)
         {
             Grid[row, col] = value;
@@ -51,7 +53,7 @@ namespace Suduku_project
         }
 
         // to do:ToFlattenedString
-        //
+        //Converts it back to a string
 
         public string ToFlattenedString()
         {
@@ -65,7 +67,7 @@ namespace Suduku_project
             }
             return sudukuInstring;
         }
-        //
+        //Printing Sudoku with user UI
         public void PrintBoard()
         {
             Console.WriteLine("-------------------------");
@@ -92,7 +94,7 @@ namespace Suduku_project
             }
             Console.WriteLine("-------------------------");
         }
-        //
+        //Deleting the Sudoku
         public void ClearBoard()
         {
             for (int i = 0; i < row; i++)

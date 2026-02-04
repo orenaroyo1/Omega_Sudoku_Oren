@@ -8,7 +8,7 @@ namespace Suduku_project
 {
     internal class BacktrackingSolver : ISudokuSolver
     {
-        //
+        //Action that solves the Sudoku
         public bool Solve(SudokuBoard board)
         {
             int row = 0, col = 0;
@@ -32,7 +32,7 @@ namespace Suduku_project
 
             return false;
         }
-        //
+        //Brings the next cell that is empty.
         private bool GetNextEmptyCell(SudokuBoard board, ref int r, ref int c)
         {
             for (int i = 0; i < 9; i++)
@@ -50,7 +50,7 @@ namespace Suduku_project
             return false;
         }
 
-        // 
+        // Checks if the value entered in the cell is valid in Sudoku
         private bool IsLegalPlacement(SudokuBoard board, int row, int col, int num)
         {
             return !UsedInRow(board, row, num) &&
@@ -58,7 +58,7 @@ namespace Suduku_project
                    !UsedInBox(board, row - row % 3, col - col % 3, num);
         }
 
-        // 
+        // Checking if it is ok in the same line
         private bool UsedInRow(SudokuBoard board, int row, int num)
         {
             for (int i = 0; i < 9; i++)
@@ -66,7 +66,7 @@ namespace Suduku_project
             return false;
         }
 
-        //
+        //Checking if it is okay in the same column
         private bool UsedInCol(SudokuBoard board, int col, int num)
         {
             for (int i = 0; i < 9; i++)
@@ -74,7 +74,7 @@ namespace Suduku_project
             return false;
         }
 
-        // 
+        // Checking if it's okay in the same box
         private bool UsedInBox(SudokuBoard board, int boxStartRow, int boxStartCol, int num)
         {
             for (int i = 0; i < 3; i++)

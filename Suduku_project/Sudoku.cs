@@ -9,16 +9,16 @@ namespace Suduku_project
 {
     internal class Sudoku
     {
-        private SudokuBoard board;//
-        private BacktrackingSolver solver;//
-        private Stopwatch sw;
+        private SudokuBoard board;//An object that creates and maintains the clipboard
+        private BacktrackingSolver solver;//Object with Sudoku solver
+        private Stopwatch sw;//Time measuring object
 
         public Sudoku()
         {
             solver = new BacktrackingSolver();
             sw = new Stopwatch();
         }
-        //
+        //A final action of solving that centralizes all actions and creates the final action.
         public void SolveFromRawString(string sudokuString)
         {
             if (!SudokuValidator.IsValidFormat(sudokuString))
@@ -26,7 +26,7 @@ namespace Suduku_project
                 Console.WriteLine("Error: Invalid format! String must be 81 digits (0-9).");
                 return;
             }
-            //
+            
             if (!SudokuValidator.IsBoardLegal(sudokuString))
             {
                 Console.WriteLine("Error: The board is illegal! Duplicate numbers found in a row, column, or 3x3 box.");

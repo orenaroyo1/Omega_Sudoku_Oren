@@ -8,7 +8,6 @@ namespace Suduku_project
 {
     internal interface ISudokuSolver
     {
-        // להוסיף הערבה שזה חוזה וצריך שיהיה את הפעולה פתירה כדי שלא יהיה שגיאה
         bool Solve(SudokuBoard board);
     }
 }
